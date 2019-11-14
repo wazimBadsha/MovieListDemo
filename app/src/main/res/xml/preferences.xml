@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        android:key="preference_key"
+        android:title="Basic Preference"
+        android:summary="Sample Preference"
+        android:icon="@drawable/ic_settings_pref"
+        />
+    <PreferenceCategory
+        android:title="Widgets">
+        <CheckBoxPreference
+            android:key="checkbox"
+            android:title="CheckBoxPreference"
+            android:summary="summary_checkbox_preference"/>
+        <SwitchPreferenceCompat
+            android:key="switch"
+            android:title="Switch"
+            android:summary="summary_switch_preference"/>
+    </PreferenceCategory>
+
+    <SeekBarPreference
+        android:key="seekbar"
+        android:title="Seek bar!"
+        android:max="10"
+        android:defaultValue="5" />
+    <PreferenceCategory
+        android:title="EditText">
+    <EditTextPreference
+        android:key="edittext"
+        android:title="Some input"
+        app:useSimpleSummaryProvider="true"
+        android:dialogTitle="This is the title"/>
+    </PreferenceCategory>
+</PreferenceScreen>

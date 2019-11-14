@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MovieListDemo</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem">Once home to the most advanced civilization on Earth, the city of Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people -- and then the surface world. Standing in his way is Aquaman</string>
+    <string name="recommended_for_you">Recommended for you !</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="serach_title_text">Hello, what do you want to search?</string>
+    <string name="hello_text">Hello</string>
+    <string name="subtext">subtext</string>
+    <string name="title_text">test text</string>
+    <string name="the_wall">The Wall</string>
+    <string name="year_sample">1979</string>
+    <string name="film_sample">Film</string>
+    <string name="actor_name">Jason Mamoa</string>
+    <string name="studio">Studio</string>
+    <string name="genre">Genre</string>
+    <string name="studio_name">Warner Bros.</string>
+    <string name="film_cat">Adventure. Action, Fantacy</string>
+    <string name="rate_now">Rate Now</string>
+    <string name="watch_now">Watch Now</string>
+</resources>
